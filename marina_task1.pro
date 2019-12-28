@@ -30,9 +30,9 @@ clauses
 goal
 	/*
 	child(ann,Who).
-	female(bob). 
 	child(Who,pam). 
 	ancestor(pam, tom). 
 	ancestor(jim,Who). 
-	*/
 	ancestor(Who,liz).
+	*/
+	female(bob). 
